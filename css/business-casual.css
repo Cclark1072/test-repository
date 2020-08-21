@@ -1,0 +1,165 @@
+/*!
+ * Start Bootstrap - Business Casual (https://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  /*background: url('../img/login/bg2.jpg') no-repeat center center fixed;*/
+  background-color: #41596c;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, .text-heading {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.tagline-upper {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.tagline-lower {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.text-expanded {
+  letter-spacing: 2px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+hr.divider {
+  border-color: #292b2c;
+  max-width: 250px;
+}
+
+.map-container iframe {
+  pointer-events: none;
+}
+
+.map-container iframe.clicked {
+  pointer-events: auto;
+}
+
+/*.bg-gradient-primary {
+    background-color: 41596c;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#41596c),to(#224abe));*/
+    /* background-image: linear-gradient(180deg,#4e73df 10%,#224abe 100%); */
+    /* background-size: cover; */
+/*}*/
+
+/*********  TABLE ***********/
+
+/*.rTable { display: table; }
+.rTableRow { display: table-row; }
+.rTableHeading { display: table-header-group; }
+.rTableBody { display: table-row-group; }
+.rTableFoot { display: table-footer-group; }
+.rTableCell, .rTableHead { display: table-cell; }*/
+
+.rTable {
+  	display: block;
+  	width: 100%;
+}
+.rTableHeading, .rTableBody, .rTableFoot, .rTableRow{
+  	/*clear: both;*/
+}
+.rTableHead, .rTableFoot{
+  	/*background-color: #DDD;*/
+  	font-weight: bold;
+}
+.rTableCell, .rTableHead {
+  	/*border: 1px solid #999999;*/
+  	float: left;
+  	height: 32px;
+  	overflow: hidden;
+  	padding: 3px 1.8%;
+  	/*width: 28%;*/
+}
+.rTable:after {
+  	visibility: hidden;
+  	display: block;
+  	font-size: 0;
+  	content: " ";
+  	clear: both;
+  	height: 0;
+}
+
+.rTableSmall {
+  	display: block;
+  	width: 50%;
+}
+.rTableCell-sm, .rTableHead-sm {
+  	/*border: 1px solid #999999;*/
+  	float: left;
+  	height: 32px;
+  	overflow: hidden;
+  	padding: 3px 1.8%;
+  	width: 24%;
+}
+
+/*********  TABLE 28%  ***********/
+
+.rTableHeadEighteen {
+  	/*border: 1px solid #999999;*/
+  	float: left;
+  	height: 32px;
+  	overflow: hidden;
+  	padding: 9px 1.8%;
+  	width: 18%;
+}
+
+/*********  TABLE 28%  ***********/
+
+.rTableHeadTwentyEight {
+  	/*border: 1px solid #999999;*/
+  	float: left;
+  	height: 32px;
+  	overflow: hidden;
+  	padding: 9px 1.8%;
+  	width: 28%;
+}
+
+
+/*********  TABLE 38%  ***********/
+
+rTableHeadingThirtyEight{
+  	/*clear: both;*/
+}
+.rTableHeadThirtyEight{
+  	/*background-color: #DDD;*/
+  	font-weight: bold;
+}
+.rTableHeadThirtyEight {
+  	/*border: 1px solid #999999;*/
+  	float: left;
+  	height: 32px;
+  	overflow: hidden;
+  	padding: 3px 1.8%;
+  	width: 38%;
+}

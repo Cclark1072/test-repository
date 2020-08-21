@@ -1,0 +1,118 @@
+.jumbotron{
+    /*background-color: #eeeeee;*/
+    background-color: #f0f9f9;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.modal-body {
+    text-align: left;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+/*.dbx-content{
+    margin:0;
+    padding: 5px 10px 9px 10px;
+    overflow: visible;
+    height: 480px;
+}*/
+
+.imageShadow{
+    /*box-shadow: 10px 10px #ececec;*/
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .8);
+    padding: 10px;
+    background: white;
+}
+
+.imageShadowSM{
+    /*box-shadow: 10px 10px #ececec;*/
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 5px;
+    background: white;
+}
+
+.imageShadowPoster{
+    /*box-shadow: 10px 10px #ececec;*/
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: #dadada;
+}
+
+.imageShadowPosterSM{
+    /*box-shadow: 10px 10px #ececec;*/
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 5px;
+    background: #dadada;
+}
+
+/****************************************/
+/* End of The Jumbotron and shadow Page */
+/****************************************/
+
+span.edit{
+    visibility: hidden;
+}
+
+.one {
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #254151;
+}
+
+/* Font */
+
+.blueFont{
+   font-family: 'Dosis', cursive;
+   font-size: 18px;
+   color: #254151;
+}
+
+.whiteFont{
+   font-family: 'Dosis', cursive;
+   font-size: 15px;
+   color: #FFFFFF;
+}
+
+.fontWhite{
+   color: #FFFFFF;
+}
+
+/*hr.star-primary {
+    border-color: #264151;
+}*/
+
+hr.star-primary-white {
+    border-color: #FFFFFF;
+}
+
+
+.centerText{
+   text-align: center:
+}
+
+fontTitle {
+   /*font-family: 'Alex Brush', cursive;*/
+   font-family: 'Raleway', sans-serif;
+   font-size: 50px;
+   color: #254151;
+}
+
+.containerRowOne {
+    width: 100%;
+    margin: auto;
+    margin-top:0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+

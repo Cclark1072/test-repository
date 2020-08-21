@@ -1,0 +1,1125 @@
+/********** Side Bar Text **********/
+
+.sidebar-brand .sidebar-brand-text {
+    color: #fff;
+}
+
+.sidebar-brand .sidebar-brand-text{
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 4.375rem;
+    /*text-decoration: none;*/
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 0.9rem 0.4rem;
+    text-align: center;
+    /*text-transform: lowercase;*/
+    letter-spacing: .05rem;
+    z-index: 1;
+}
+
+.sidebar-brand .sidebar-brand-text b {
+    /*font-family: 'Nanum Myeongjo', serif;*/
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 20px;
+}
+
+.mx-3 {
+    margin-right: 0.5rem!important;
+}
+
+.small, small {
+    font-size: 60%;
+    font-weight: 400;
+}
+
+
+/*******************************************/
+/************ The Section Title ************/
+/*******************************************/
+
+.gig_section {
+	font-family: 'Raleway', sans-serif;
+}
+
+/********************************************/
+/************ The Column Headers ************/
+/********************************************/
+
+.gig_heading {
+	/*font-family: 'Libre Baskerville', serif;*/
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	/*font-family: 'Tangerine', cursive;*/
+}
+
+.gig_heading_medium {
+	/*font-family: 'Libre Baskerville', serif;*/
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	/*font-family: 'Tangerine', cursive;*/
+}
+
+.gig_subheading {
+	/*font-family: 'Libre Baskerville', serif;*/
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	/*font-family: 'Tangerine', cursive;*/
+}
+
+/********************************/
+/************ Button ************/
+/********************************/
+
+
+/*button, input, optgroup, select, textarea {*/
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    /*font-size: inherit;*/
+    font-size: 12px;
+    line-height: inherit;
+}
+
+/************************************/
+/****** gig economy TEXT COLOR ******/
+/************************************/
+
+.index2_text {
+  color: #275d79 !important;
+}
+
+.fulltime_text {
+  color: #35727B !important;
+}
+
+.gigwork_text {
+  color: #4E8891 !important;
+}
+
+.employmentagency_text {
+  color: #72A3A8 !important;
+}
+
+.businessideas_text {
+  color: #35727B !important;
+}
+
+.networking_text {
+  color: #C8B790 !important;
+}
+
+.socialmedia_text {
+  color: #B79F6E !important;
+}
+
+.sidehustle_text {
+  color: #1B393E !important;
+}
+
+.training_text {
+  color: #575652 !important;
+}
+
+.selfcare_text {
+  color: #645C48 !important;
+}
+
+.articles_text {
+  color: #5C5037 !important;
+}
+
+
+/*
+ * Component: Direct Chat
+ * ----------------------
+ */
+ 
+ .comingsoon{
+ 	color: rgba(220, 112, 14, 0.9);
+ }
+ 
+.direct-chat .box-body {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  position: relative;
+  overflow-x: hidden;
+  padding: 0;
+}
+.direct-chat.chat-pane-open .direct-chat-contacts {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.direct-chat-messages {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  padding: 10px;
+  height: 250px;
+  overflow: auto;
+}
+.direct-chat-msg,
+.direct-chat-text {
+  display: block;
+}
+.direct-chat-msg {
+  margin-bottom: 10px;
+}
+.direct-chat-msg:before,
+.direct-chat-msg:after {
+  content: " ";
+  display: table;
+}
+.direct-chat-msg:after {
+  clear: both;
+}
+.direct-chat-messages,
+.direct-chat-contacts {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  -moz-transition: -moz-transform 0.5s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+.direct-chat-text {
+  border-radius: 5px;
+  position: relative;
+  padding: 5px 10px;
+  background: #d2d6de;
+  border: 1px solid #d2d6de;
+  margin: 5px 0 0 50px;
+  color: #444;
+}
+.direct-chat-text:after,
+.direct-chat-text:before {
+  position: absolute;
+  right: 100%;
+  top: 15px;
+  border: solid transparent;
+  border-right-color: #d2d6de;
+  content: ' ';
+  height: 0;
+  width: 0;
+  pointer-events: none;
+}
+.direct-chat-text:after {
+  border-width: 5px;
+  margin-top: -5px;
+}
+.direct-chat-text:before {
+  border-width: 6px;
+  margin-top: -6px;
+}
+.right .direct-chat-text {
+  margin-right: 50px;
+  margin-left: 0;
+}
+.right .direct-chat-text:after,
+.right .direct-chat-text:before {
+  right: auto;
+  left: 100%;
+  border-right-color: transparent;
+  border-left-color: #d2d6de;
+}
+.direct-chat-img {
+  border-radius: 50%;
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+.right .direct-chat-img {
+  float: right;
+}
+.direct-chat-info {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 12px;
+}
+.direct-chat-name {
+  font-weight: 600;
+}
+.direct-chat-timestamp {
+  color: #999;
+}
+.direct-chat-contacts-open .direct-chat-contacts {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.direct-chat-contacts {
+  -webkit-transform: translate(101%, 0);
+  -ms-transform: translate(101%, 0);
+  -o-transform: translate(101%, 0);
+  transform: translate(101%, 0);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 250px;
+  width: 100%;
+  background: #222d32;
+  color: #fff;
+  overflow: auto;
+}
+.contacts-list > li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 0;
+}
+.contacts-list > li:before,
+.contacts-list > li:after {
+  content: " ";
+  display: table;
+}
+.contacts-list > li:after {
+  clear: both;
+}
+.contacts-list > li:last-of-type {
+  border-bottom: none;
+}
+.contacts-list-img {
+  border-radius: 50%;
+  width: 40px;
+  float: left;
+}
+.contacts-list-info {
+  margin-left: 45px;
+  color: #fff;
+}
+.contacts-list-name,
+.contacts-list-status {
+  display: block;
+}
+.contacts-list-name {
+  font-weight: 600;
+}
+.contacts-list-status {
+  font-size: 12px;
+}
+.contacts-list-date {
+  color: #aaa;
+  font-weight: normal;
+}
+.contacts-list-msg {
+  color: #999;
+}
+.direct-chat-danger .right > .direct-chat-text {
+  background: #dd4b39;
+  border-color: #dd4b39;
+  color: #fff;
+}
+.direct-chat-danger .right > .direct-chat-text:after,
+.direct-chat-danger .right > .direct-chat-text:before {
+  border-left-color: #dd4b39;
+}
+.direct-chat-primary .right > .direct-chat-text {
+  background: #3c8dbc;
+  border-color: #3c8dbc;
+  color: #fff;
+}
+.direct-chat-primary .right > .direct-chat-text:after,
+.direct-chat-primary .right > .direct-chat-text:before {
+  border-left-color: #3c8dbc;
+}
+.direct-chat-warning .right > .direct-chat-text {
+  background: #f39c12;
+  border-color: #f39c12;
+  color: #fff;
+}
+.direct-chat-warning .right > .direct-chat-text:after,
+.direct-chat-warning .right > .direct-chat-text:before {
+  border-left-color: #f39c12;
+}
+.direct-chat-info .right > .direct-chat-text {
+  background: #00c0ef;
+  border-color: #00c0ef;
+  color: #fff;
+}
+.direct-chat-info .right > .direct-chat-text:after,
+.direct-chat-info .right > .direct-chat-text:before {
+  border-left-color: #00c0ef;
+}
+.direct-chat-success .right > .direct-chat-text {
+  background: #00a65a;
+  border-color: #00a65a;
+  color: #fff;
+}
+.direct-chat-success .right > .direct-chat-text:after,
+.direct-chat-success .right > .direct-chat-text:before {
+  border-left-color: #00a65a;
+}
+
+/****************************************/
+/************ The Entry Text ************/
+/****************************************/
+
+.gig_text {
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+
+/*
+ * Column Alignment: index-2.php 
+ * -------------------------------
+ */
+ 
+.delTable_index06 td, .delTable_index06 th {
+    border: 0px solid #ddd !important;
+    padding: 8px !important;
+    width: 6% !important;
+}
+
+.delTable_index16 td, .delTable_index16 th {
+    border: 0px solid #ddd !important;
+    padding: 8px !important;
+    width: 16% !important;
+}
+
+.delTable_index26 td, .delTable_index26 th {
+    border: 0px solid #ddd !important;
+    padding: 8px !important;
+    width: 26% !important;
+}
+
+.delTable_index36 td, .delTable_index36 th {
+    border: 0px solid #ddd !important;
+    padding: 8px !important;
+    /*width: 36% !important;*/
+}
+
+.gig_text_index08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+
+.gig_text_index18 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 18% !important;
+}
+
+.gig_text_index26 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 26% !important;
+}
+
+.gig_text_index28 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 28% !important;
+}
+
+.gig_text_index30 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 30% !important;
+}
+
+.gig_text_index38 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 38% !important;
+}
+
+.gig_text_index40 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 40% !important;
+}
+
+.gig_text_index48 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 48% !important;
+}
+
+.rTableHeadTwentyEight_index2 {
+    /* border: 1px solid #999999; */
+    float: left !important;
+    height: 32px !important;
+    /* overflow: hidden; */
+    padding: 9px 1.8% !important;
+    width: 28% !important;
+}
+ 
+ 
+/*
+ * Column Alignment: mission.php 
+ * -------------------------------
+ */
+ 
+.gig_text_mission08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_mission02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_mission38 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 38% !important;
+}
+
+.gig_text_mission78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+.gig_text_mission88 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 88% !important;
+}
+
+.gig_text_mission98 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 98% !important;
+}
+
+.gig_text_mission88 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 88% !important;
+}
+.delTable_mission36 td, .delTable_mission36 th {
+    border: 0px solid #ddd !important;
+    padding: 8px !important;
+    /*width: 36% !important;*/
+}
+
+/*
+ * Column Alignment: mission.php 
+ * -------------------------------
+ */
+
+.gig_text_gigwork02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_gigwork08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_gigwork18 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 18% !important;
+}
+
+.gig_text_gigwork20 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 20% !important;
+}
+
+.gig_text_gigwork24 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 24% !important;
+}
+
+.gig_text_gigwork25 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 25% !important;
+}
+
+.gig_text_gigwork26 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 26% !important;
+}
+
+.gig_text_gigwork28 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 28% !important;
+}
+
+.gig_text_gigwork38 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 38% !important;
+}
+
+.gig_text_gigwork78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+
+/*
+ * Column Alignment: businessideas.php 
+ * -----------------------------------
+ */
+
+.gig_text_businessideas02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_businessideas08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_businessideas38 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 38% !important;
+}
+
+.gig_text_businessideas40 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 40% !important;
+}
+ 
+.gig_text_businessideas41 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 41% !important;
+}
+
+.gig_text_businessideas48 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 48% !important;
+}
+
+.gig_text_businessideas78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+
+/*
+ * Column Alignment: sidehustle.php 
+ * -----------------------------------
+ */
+
+.gig_text_sidehustle02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_sidehustle08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_sidehustle78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+
+/*
+ * Column Alignment: socialmedia.php 
+ * -----------------------------------
+ */
+
+.gig_text_socialmedia02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_socialmedia08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_socialmedia78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+
+/*
+ * Column Alignment: training.php 
+ * -----------------------------------
+ */
+
+.gig_text_training02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_training08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_training28 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 28% !important;
+}
+
+.gig_text_training38 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 38% !important;
+}
+
+.gig_text_training40 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 40% !important;
+}
+
+.gig_text_training41 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 41% !important;
+}
+
+.gig_text_training42 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 42% !important;
+}
+
+.gig_text_training43 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 43% !important;
+}
+
+.gig_text_training78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+
+/*
+ * Column Alignment: selfcare.php 
+ * -----------------------------------
+ */
+
+.gig_text_selfcare02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_selfcare08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_selfcare78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+
+/*
+ * Column Alignment: nourishment.php 
+ * -----------------------------------
+ */
+
+.gig_text_nourishment02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_nourishment08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_nourishment28 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 28% !important;
+}
+
+.gig_text_nourishment78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+.hrsize {
+	size: 10px;
+	border: 20px;
+    border-top: 10px solid rgba(39,93,121,.5);
+}
+
+.nourishment-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: auto;
+}
+
+.nourishment-list > li {
+    border-radius: 2px;
+    padding: 10px;
+    /*background: #f2f8fb !important;*/
+    background: rgba(39,93,121,.5); !important;
+    margin-bottom: 2px;
+    /* border-left: 2px solid #e6e7e8; */
+    border-left: 1px solid #f2f8fb;
+    color: #444;
+}
+
+/*
+ * Column Alignment: articles.php 
+ * -----------------------------------
+ */
+
+.gig_text_articles02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_articles08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_articles28 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 28% !important;
+}
+
+.gig_text_articles38 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 38% !important;
+}
+
+.gig_text_articles40 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 40% !important;
+}
+
+.gig_text_articles42 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 42% !important;
+}
+
+.gig_text_articles48 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 48% !important;
+}
+
+.gig_text_articles78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+.hrsize {
+	size: 10px;
+	border: 20px;
+    border-top: 10px solid rgba(39,93,121,.5);
+}
+
+.articles-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: auto;
+}
+
+.articles-list > li {
+    border-radius: 2px;
+    padding: 10px;
+    /*background: #f2f8fb !important;*/
+    background: rgba(39,93,121,.5); !important;
+    margin-bottom: 2px;
+    /* border-left: 2px solid #e6e7e8; */
+    border-left: 1px solid #f2f8fb;
+    color: #444;
+}
+
+
+/*
+ * Column Alignment: networking.php 
+ * -----------------------------------
+ */
+
+.gig_text_networking02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_networking08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_networking28 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 28% !important;
+}
+
+.gig_text_networking78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+.gig_text_networking88 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 88% !important;
+}
+
+.gig_text_networking98 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 98% !important;
+}
+
+.hrsize {
+	size: 10px;
+	border: 20px;
+    border-top: 10px solid rgba(39,93,121,.5);
+}
+
+.networking-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: auto;
+}
+
+.networking-list > li {
+    border-radius: 2px;
+    padding: 10px;
+    /*background: #f2f8fb !important;*/
+    background: rgba(39,93,121,.5); !important;
+    margin-bottom: 2px;
+    /* border-left: 2px solid #e6e7e8; */
+    border-left: 1px solid #f2f8fb;
+    color: #444;
+}
+
+
+/*
+ * Column Alignment: employmentagencies.php 
+ * -----------------------------------
+ */
+
+.gig_text_employmentagencies02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_employmentagencies08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_employmentagencies28 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 28% !important;
+}
+
+.gig_text_employmentagencies36 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 36% !important;
+}
+
+.gig_text_employmentagencies38 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 38% !important;
+}
+
+.gig_text_employmentagencies78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+.gig_text_employmentagencies88 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 88% !important;
+}
+
+.gig_text_employmentagencies98 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 98% !important;
+}
+
+.hrsize {
+	size: 10px;
+	border: 20px;
+    border-top: 10px solid rgba(39,93,121,.5);
+}
+
+.employmentagencies-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: auto;
+}
+
+.employmentagencies-list > li {
+    border-radius: 2px;
+    padding: 10px;
+    /*background: #f2f8fb !important;*/
+    background: rgba(39,93,121,.3); !important;
+    margin-bottom: 2px;
+    /* border-left: 2px solid #e6e7e8; */
+    border-left: 1px solid #f2f8fb;
+    color: #444;
+}
+
+
+/*
+ * Column Alignment: fulltime.php 
+ * -----------------------------------
+ */
+
+.gig_text_fulltime02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+.gig_text_fulltime08 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 8% !important;
+}
+
+.gig_text_fulltime28 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 28% !important;
+}
+
+.gig_text_fulltime30 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 30% !important;
+}
+
+.gig_text_fulltime32 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 32% !important;
+}
+
+.gig_text_fulltime34 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 34% !important;
+}
+
+
+.gig_text_fulltime36 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 36% !important;
+}
+
+.gig_text_fulltime38 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 38% !important;
+}
+
+.gig_text_fulltime78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+.gig_text_fulltime88 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 88% !important;
+}
+
+.gig_text_fulltime98 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 98% !important;
+}
+
+.hrsize {
+	size: 10px;
+	border: 20px;
+    border-top: 10px solid rgba(39,93,121,.5);
+}
+
+h2.atssize {
+	font-size: 18px !important;
+	background: rgba(39,93,121,.1); !important;
+}
+
+.fulltime-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: auto;
+}
+
+.fulltime-list > li {
+    border-radius: 2px;
+    padding: 10px;
+    /*background: #f2f8fb !important;*/
+    background: rgba(39,93,121,.3); !important;
+    margin-bottom: 2px;
+    /* border-left: 2px solid #e6e7e8; */
+    border-left: 1px solid #f2f8fb;
+    color: #444;
+}
+
+
+/*
+ * Column Alignment: jobsapplied.php 
+ * -----------------------------------
+ */
+
+
+.gig_text_jobsapplied02 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 2% !important;
+}
+
+
+.gig_text_jobsapplied28 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 28% !important;
+}
+
+.gig_text_jobsapplied30 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 30% !important;
+}
+
+.gig_text_jobsapplied32 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 32% !important;
+}
+
+.gig_text_jobsapplied34 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 34% !important;
+}
+
+
+.gig_text_jobsapplied36 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 36% !important;
+}
+
+.gig_text_jobsapplied38 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 38% !important;
+}
+
+.gig_text_jobsapplied78 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 78% !important;
+}
+
+.gig_text_jobsapplied88 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 88% !important;
+}
+
+.gig_text_jobsapplied98 {
+	font-family: 'Nanum Myeongjo', serif !important;
+	width: 98% !important;
+}
+
+.hrsize {
+	size: 10px;
+	border: 20px;
+    border-top: 10px solid rgba(39,93,121,.5);
+}
+
+h2.atssize {
+	font-size: 18px !important;
+	background: rgba(39,93,121,.1); !important;
+}
+
+.jobsapplied-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: auto;
+}
+
+.jobsapplied-list > li {
+    border-radius: 2px;
+    padding: 10px;
+    /*background: #f2f8fb !important;*/
+    background: rgba(39,93,121,.3); !important;
+    margin-bottom: 2px;
+    /* border-left: 2px solid #e6e7e8; */
+    border-left: 1px solid #f2f8fb;
+    color: #444;
+}

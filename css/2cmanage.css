@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/* CSS3 Document */
+
+.boxshadow{
+	-moz-box-shadow: 8px 8px 15px #333;
+	-webkit-box-shadow: 8px 8px 15px #333;
+	box-shadow: 8px 8px 15px #333;
+}
+
+/* Core CSS */
+
+#main {
+	background: #f9fafc no-repeat;
+	margin: 2% auto;
+	width: 85%;
+	margin-left: 8%;
+}
+
+.mainTitle{
+	height: 11%;
+	width: 50%;
+}
+
+#clear{
+	clear: both;
+}
+
+#about {
+	/*background: #c9d9e4 no-repeat;
+	height: 125%;*/
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+
+#aboutResume {
+	/*background: #c9d9e4 no-repeat;
+	height: 74%;*/
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+
+#aboutContent {
+	padding: 1.8em;
+	margin-left: 6%;
+	margin-right: 10%;
+	vertical-align: central;
+}
+
+#vfxArtist {
+	height: 50px;
+	font-size:15px;
+	padding: 0.5em;
+	vertical-align: central;
+	margin-left: 19%;
+}
+
+.mainImage{
+	background: #eff3f7 no-repeat;
+	position: relative;
+	margin-left: 27%;
+	margin-right: 20%;
+}
+
+.topImage{
+	position: absolute;
+	top: 465px;
+	left: 1px;
+	margin-left: 27%;
+	margin-right: 20%;
+}
+
+.resumeImage{
+	background: #eff3f7 no-repeat;
+	position: relative;
+	margin-left: 16.5%;
+	margin-right: 20%;
+}
+
+.filmImage{
+	background: #eff3f7 no-repeat;
+	position: relative;
+	margin-left: 14.5%;
+	margin-right: 20%;
+}
+
+.content {
+	text-indent: 10px;
+	margin: 0px auto;
+	height: auto;
+	width: 70%;
+	/*background-color: #dcdce0;*/
+}
+
+/********************/
+/**** HTML TAGS *****/
+/********************/
+
+/*h3 {
+	text-align: center;
+}*/
+
+h1 {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+	text-align: center;
+}
+h2 {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	color: #2A4455;
+	line-height: 22px;
+	text-align: center;
+}
+h3 {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15px;
+	text-align: center;
+}
+b{
+	color:#2A4455;
+}
+
+/********************/
+/******* MENUS ******/
+/********************/
+
+/* Social Menu Bar */
+
+#social {
+	margin-left: 30%;
+	margin-right: 20%;
+	bottom:0;
+}
+
+ul.socialbar {
+	list-style-type: none;
+}
+
+ul.socialbar li {
+	display: inline-block;
+	padding: 0.5em;
+	padding-right: 2px;
+	margin-bottom: 2%;
+}
+
+ul.socialbar a {
+	text-decoration: none;
+}
+
+
+
+/* Content Menu Bar */
+
+ul.navbar {
+	list-style-type: none;
+}
+
+ul.navbar li {
+	display: inline-block;
+	padding: 1em;
+	padding-right: 5px;
+}
+
+ul.navbar a {
+	text-decoration: none;
+}
+
+
+/* Hyper Link */
+a:link {
+	color: 05686b;
+}
+
+a:visited {
+	color: #67666b;
+}
+
+@-moz-document url-prefix(){
+	display: inline-block;
+	margin: 0.5em 0;
+	padding: 1em;
+	text-align: center;
+	width: 5em;
+}
+
+
+/* Portfolio List */
+
+ul.contentul {
+	margin-left:25px;
+}
+
+ul.contentul li {
+	text-align: left;
+}
+
+ul.contentul a {
+	text-decoration: none;
+	color:#67666b;
+}

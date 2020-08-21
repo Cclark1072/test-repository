@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	background: #ffffff url('../images/MainBackground.jpg') no-repeat;
+	background-size:100%;
+	background-repeat:repeat-y;
+	margin: 0px auto;
+	height: auto;
+}
+
+#nav {
+	margin: 0px auto;
+	height: 50px;
+	width: 50%;
+	/*background-color: #dcdce0;*/
+}
+
+#2cSpace{
+	margin-top: 1em;
+}
+
+.background {
+	margin: 0px auto;
+	height: auto;
+	width: 70%;
+	/*background-color: #dcdce0;*/
+}
+
+.content {
+	text-indent: 10px;
+	margin: 0px auto;
+	height: auto;
+	width: 50%;
+	/*background-color: #dcdce0;*/
+}
+
+.creativeContent {
+	/*margin-left: 190px;*/
+	margin-top:60px;
+	color:#67666b;
+	text-align:center;
+}
+
+.created {
+	text-align:center;
+}
+
+.created p{
+	color:#67666b;
+}
+
+
+/* Menu Bar */
+
+ul.navbar {
+	list-style-type: none;
+}
+
+ul.navbar li {
+	display: inline-block;
+	margin: 0.5em 0;
+	padding: 1em;
+	text-align: center;
+	width: 6em;
+	padding-right: 5px;
+}
+
+@-moz-document url-prefix(){
+	display: inline-block;
+	margin: 0.5em 0;
+	padding: 1em;
+	text-align: center;
+	width: 5em;
+}
+
+ul.navbar a {
+	text-decoration: none;
+}
+
+a:link {
+	color: 05686b;
+}
+
+a:visited {
+	color: #67666b;
+}

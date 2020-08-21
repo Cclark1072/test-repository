@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+background-color:#00cccc;
+border-color:#006666;
+}
+
+tr {
+border-color:#006666;
+}
+
+tr td {
+border-color:#006666;
+}
+
+ul li {
+background-color:#000000;
+border-color:#006666;
+font:"Times New Roman", Times, serif;
+}
+
+#p {
+margin-left:auto;
+margin-right:auto;
+}

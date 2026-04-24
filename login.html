@@ -29,43 +29,6 @@
 </head>
 
 <body>
-  
-  <?php
-   
-   require('connect.php');
-   session_start();
-   
-   if (isset($_POST['user_login']) && isset($_POST['user_pass'])){
-      
-      $user_login = $_POST['user_login'];
-      $user_pass = $_POST['user_pass'];
-	
-      $db = mysqli_connect('mysql', 'cclark1072', 'Xvw4456yah32', 'gigeconomy');
-      $sql = "SELECT id FROM gig_users WHERE user_login = '$user_login' and user_pass = '$user_pass'";
-      
-      $result = mysqli_query($db,$sql);
-      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-      
-      $count = mysqli_num_rows($result);
-      
-      if($count == 1) {
-        
-         $_SESSION['loggedin'] = true;
-         
-         ?>
-               <script>
-                       spge = '<?php echo $user_login ;?>';
-				   
-                       sessionStorage.setItem("user_login", spge);
-                       sessionStorage.setItem("loggedin", "true");
-                       window.location = "index-2.php";
-               </script>
-         <?php
-      }else {
-         $error = "Your Login Name or Password is invalid";
-      }
-   }
-  ?>
 	
   // Initialize the Supabase client
   const _supabase = supabase.createClient('https://juvozwtnvrujbcbuhiyx.supabase.co/rest/v1/', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp1dm96d3RudnJ1amJjYnVoaXl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcwMzcyMTUsImV4cCI6MjA5MjYxMzIxNX0.Ks6FXjzzaxqDkpcR2N4mpSUxQVBixzghaxcbFRnCD9o');	

@@ -32,31 +32,16 @@
   
   <?php
    
-   //function console_log( $data ){
-  		//echo '<script>';
-  		//echo 'console.log('. json_encode( $data ) .')';
-  		//echo '</script>';
-   //}
-	
-   //console_log( 'Login page NOW ' );
-   
    require('connect.php');
    session_start();
    
    if (isset($_POST['user_login']) && isset($_POST['user_pass'])){
-      //console_log( 'Login page: IF POST ' );
       
       $user_login = $_POST['user_login'];
       $user_pass = $_POST['user_pass'];
-
-      //console_log( 'user_login is: ' . $user_login );
-      //console_log( 'user_pass is: ' . $user_pass );
-      
-      //$db = mysqli_connect('localhost', 'root', 'Tp!dfg43:fbc3', 'gigeconomy');
+	
       $db = mysqli_connect('mysql', 'cclark1072', 'Xvw4456yah32', 'gigeconomy');
       $sql = "SELECT id FROM gig_users WHERE user_login = '$user_login' and user_pass = '$user_pass'";
-      
-      //console_log( 'sql is: ' . $sql );
       
       $result = mysqli_query($db,$sql);
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
@@ -70,19 +55,44 @@
          ?>
                <script>
                        spge = '<?php echo $user_login ;?>';
-                       //alert(spge);
+				   
                        sessionStorage.setItem("user_login", spge);
                        sessionStorage.setItem("loggedin", "true");
                        window.location = "index-2.php";
                </script>
          <?php
       }else {
-         //console_log( 'count is NOT success ' );
          $error = "Your Login Name or Password is invalid";
       }
    }
   ?>
+	
+  // Initialize the Supabase client
+  const _supabase = supabase.createClient('https://juvozwtnvrujbcbuhiyx.supabase.co/rest/v1/', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp1dm96d3RudnJ1amJjYnVoaXl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcwMzcyMTUsImV4cCI6MjA5MjYxMzIxNX0.Ks6FXjzzaxqDkpcR2N4mpSUxQVBixzghaxcbFRnCD9o');	
 
+  <script>
+	async function getMyProfile() {
+    // 1. Get the ID of the person currently logged in
+    const { data: { user } } = await _supabase.auth.getUser();
+
+    if (user) {
+        // 2. Query the 'profiles' table for this specific ID
+        // This is the equivalent of: SELECT * FROM profiles WHERE id = 'user.id'
+        const { data, error } = await _supabase
+            .from('profiles')
+            .select('*')
+            .eq('id', user.id) // "eq" stands for "equal to"
+            .single();        // We only expect one row
+
+        if (error) {
+            console.error("Error fetching profile:", error.message);
+        } else {
+            console.log("User Data:", data);
+        }
+    }
+  }
+  </script>
+  
   <div class="container">
 
     <!-- Outer Row -->
@@ -137,6 +147,9 @@
 
   </div>
 
+  <!-- Supabase -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+	
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

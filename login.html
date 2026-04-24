@@ -30,10 +30,10 @@
 
 <body>
 	
-  // Initialize the Supabase client
-  const _supabase = supabase.createClient('https://juvozwtnvrujbcbuhiyx.supabase.co/rest/v1/', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp1dm96d3RudnJ1amJjYnVoaXl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcwMzcyMTUsImV4cCI6MjA5MjYxMzIxNX0.Ks6FXjzzaxqDkpcR2N4mpSUxQVBixzghaxcbFRnCD9o');	
-
   <script>
+	// Initialize the Supabase client
+    const _supabase = supabase.createClient('https://juvozwtnvrujbcbuhiyx.supabase.co/rest/v1/', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp1dm96d3RudnJ1amJjYnVoaXl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcwMzcyMTUsImV4cCI6MjA5MjYxMzIxNX0.Ks6FXjzzaxqDkpcR2N4mpSUxQVBixzghaxcbFRnCD9o');	
+  
 	async function getMyProfile() {
     // 1. Get the ID of the person currently logged in
     const { data: { user } } = await _supabase.auth.getUser();
